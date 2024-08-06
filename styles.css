@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+/* Estilo básico para todo el cuerpo */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+  }
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;}
+
+/* Estilo para las secciones */
+section {
+    margin: 10px auto; /* Reduce el margen */
+    padding: 10px; /* Reduce el padding */
+    width: 90%; /* Reduce el ancho */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilo para los títulos de las secciones */
+h2, h3 {
+    color: #555;
+}
+
+/* Estilo para listas */
+ul, ol {
+    padding-left: 15px; /* Reduce el padding de las listas */
+}
+
+/* Estilo para las imágenes */
+img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;}
+
+/* Estilo para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para los fieldsets del formulario */
+fieldset {
+    margin-bottom: 5px; /* Reduce el margen inferior */
+    padding: 5px; /* Reduce el padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para los botones */
+button {
+    padding: 30px; /* Reduce el padding */
+    border: none;
+    border-radius: 30px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 0.1px; /* Reduce el padding */
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para colocar las imágenes primerafoto y hermanalilo una al lado de la otra */
+.image-side-by-side {
+    display: flex;
+    justify-content: flex-start; /* Alinear al inicio */
+    gap: 0; /* Eliminar el gap */
+}
+

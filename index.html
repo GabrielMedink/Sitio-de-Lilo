@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilo</title>
+    <!-- Agrega un enlace a una hoja de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+
+    <header class="header">
+        <h1>Lilito</h1>
+    </header>
+  
+
+    <section>
+        <h2>Descripción</h2>
+        <p>Lilo es una perrita adoptada, vivía en la calle junto a su hermana y fueron rescatadas, tiene aproximadamente 2 años de edad y pesa 9 kilos.</p>
+        <div class="image-side-by-side">
+        <img src="Images/primerafoto.jpeg" width="350" height="350" alt="primerafoto">
+        
+        <img src="Images/hermanalilo (1).jpeg" width="350" height="350" alt="hermanalilo">
+        </div>
+        <h2>Fotos</h2>
+        <!--TODO: agregar link de fotos de lilo-->
+        <p>Ver <a target="_blank" href="galeria_lilo.html">fotos </a>de Lilo en nuestra galería.</p>
+        <img src="Images/Foto1.jpeg" width="350" height="350" alt="Lilito">
+    </section>
+
+    <section>
+        <h2>Lista de cosas</h2>
+        <h3>Cosas que Lilo ama:</h3>
+        <ul>
+            <li>Dormir</li>
+            <img src="Images/lilosleep.jpeg" width="150" height="150" alt="lilosleep">
+            <li>Comer</li>
+            <img src="Images/liloeat.jpeg" width="150" height="150" alt="liloeat">
+            <li>Paseos</li>
+            <img src="Images/Lilopaseo.jpeg" width="150" height="150" alt="Lilopaseo">
+        </ul>
+
+        <h3>Top 3 cosas que Lilo odia:</h3>
+        <ol>
+            <li>Gatos</li>
+            <li>Vomitar</li>
+            <li>Bañarse</li>
+            <img src="Images/liloducha.jpeg" width="150" height="150" alt="liloducha">
+        </ol>
+    </section>
+
+    <section>
+        <h2>Formulario de perros</h2>
+        <form action="submit-form.html">
+            <fieldset>
+                <legend>¿Es tu perro de raza?</legend>
+                <label><input id="Sí" type="radio" name="Sí-No" value="Sí" checked> Sí</label>
+                <label><input id="No" type="radio" name="Sí-No" value="No"> No</label>
+            </fieldset>
+            <fieldset>
+                <legend>¿Cómo es la personalidad de tu perro?</legend>
+                <input id="Juguetón" type="checkbox" name="personality" value="Juguetón" checked> <label for="Juguetón">Juguetón</label>
+                <input id="Flojo" type="checkbox" name="personality" value="Flojo"> <label for="Flojo">Flojo</label>
+                <input id="Maldadoso" type="checkbox" name="personality" value="Maldadoso"> <label for="Maldadoso">Maldadoso</label>
+            </fieldset>
+            <input type="text" name="catphotourl" placeholder="Escriba el nombre de su perro" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 Lilito Inc. Todos los derechos reservados. - <a href="https://github.com/GabrielMedink">GabrielMedink</a></p>
+</footer>
+
+</body>
+</html>
